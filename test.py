@@ -1,6 +1,6 @@
 from big_dataset import load_mnist, plot_images
-from sklearn.metrics import accuracy_score # 准确率
-from sklearn.datasets import load_digits  # 加载手写数字识别数据
+from sklearn.metrics import accuracy_score
+from sklearn.datasets import load_digits
 import joblib
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report
